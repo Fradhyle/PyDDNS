@@ -4,7 +4,8 @@ Language: Python
 ## Developers' Environment
 - Python 3.8.5 (with Anaconda Individual Edition 2020-11)
 - Requests 2.25.1
-## Development References (Alphabetical Order)
+## Development References
+Following references are in alphabetical order, case insensitive
 - [cURL Converter](https://github.com/NickCarneiro/curlconverter/)
 - [DnsTube](https://github.com/drittich/DnsTube)
 - [Requests](https://requests.readthedocs.io/)
