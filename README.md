@@ -6,7 +6,8 @@ Language: Python
 - Requests 2.25.1
 ## Development References
 [Requests](https://requests.readthedocs.io/)\
-[cURL Converter by Nick Carneiro](https://github.com/NickCarneiro/curlconverter/)
+[cURL Converter](https://github.com/NickCarneiro/curlconverter/)
+[DnsTube](https://github.com/drittich/DnsTube)
 ## Users' Environment
 - Windows 64 bit
 ## Questions
