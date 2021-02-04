@@ -1,5 +1,5 @@
 # PyDDNS
-Purpose: I need DDNS Client for my domain in CloudFlare
+Purpose: I need DDNS Client for my domain in CloudFlare\
 Language: Python
 ## Current Environment
 1. Python 3.8.5 (with Anaconda Individual Edition 2020-11)
