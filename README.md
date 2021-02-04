@@ -13,7 +13,8 @@ Following references are in alphabetical order, case insensitive
 - Windows 64 bit
 ## Questions
 Q1. Why using GPL v3?\
-A1. Because I want to use Qt GUI for this.
+A1. Because I want to use Qt GUI for this.\
+    If you know any easy GUI library that allow me to change this program's license to MIT license, please let me know.
 ## To-Do
 - [ ] Python-included Excutable
 - [ ] Security for token/key storage.
