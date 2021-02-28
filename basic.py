@@ -12,3 +12,8 @@ headers_ = {
 
 response = requests.get(request_point, headers=headers_)
 response.json()
+
+def get_external_ip():
+    import requests
+    response = requests.get('https://api64.ipify.org?format=json')
+    return response.json()['ip']
