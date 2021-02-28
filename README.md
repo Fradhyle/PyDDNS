@@ -12,9 +12,6 @@ Following references are in alphabetical order, case insensitive.
 - [DnsTube](https://github.com/drittich/DnsTube)
 - [Requests](https://requests.readthedocs.io/)
 ## Questions
-Q1. Why using GPL v3?\
-A1. Because I want to use Qt GUI for this.\
-    If you know any easy GUI library that allow me to change this program's license to MIT license, please let me know.
 ## To-Do
 - [ ] Stay in background and run regularly.
 - [ ] GUI
