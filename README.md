@@ -9,6 +9,7 @@ Language: Python
 ## Development References
 Following references are in alphabetical order, case insensitive.
 - [Cloudflare API v4 Documentation](https://api.cloudflare.com)
+- [Official Cloudflare Python Wrapper](https://github.com/cloudflare/python-cloudflare)
 - [cURL Converter](https://github.com/NickCarneiro/curlconverter)
 - [DnsTube](https://github.com/drittich/DnsTube)
 - [Requests](https://requests.readthedocs.io)
