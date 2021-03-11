@@ -13,7 +13,6 @@ Following references are in alphabetical order, case insensitive.
 - [cURL Converter](https://github.com/NickCarneiro/curlconverter)
 - [DnsTube](https://github.com/drittich/DnsTube)
 - [Requests](https://requests.readthedocs.io)
-## Questions
 ## To-Do
 - [ ] Stay in background and run regularly.
 - [ ] GUI
