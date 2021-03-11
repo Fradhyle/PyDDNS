@@ -13,8 +13,11 @@ Following references are in alphabetical order, case insensitive.
 - [cURL Converter](https://github.com/NickCarneiro/curlconverter)
 - [DnsTube](https://github.com/drittich/DnsTube)
 - [Requests](https://requests.readthedocs.io)
+## Questions
+- **Q1:** Is it okay to save API token/key in plain text?
+  - **A1:** I also considered about this for a long time.\
+    In conclusion, I decided to save it as plain text because it's already safe method.
 ## To-Do
 - [ ] Stay in background and run regularly.
 - [ ] GUI
 - [ ] Python-included Excutable
-- [ ] ~~Secure storage for token/key~~ Token/key is already secured method.
