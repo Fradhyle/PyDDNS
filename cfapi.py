@@ -5,6 +5,8 @@ class Cloudflare:
 
     def zones(self):
         self.endpoint = self.base_url + 'zones'
+        return self.endpoint
 
     def dns_records(self, zone_id):
         self.endpoint = self.base_url + 'zones/' + zone_id + 'dns_records'
+        return self.endpoint
