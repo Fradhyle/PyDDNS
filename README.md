@@ -1,6 +1,6 @@
 # PyDDNS
-Purpose: I need DDNS Client for my domain in Cloudflare\
-Language: Python
+- Purpose: I need DDNS Client for my domain in Cloudflare\
+- Language: Python
 ## What do you need to collaborate
 - Contact me through GitHub (Very important)
 - Python 3.8.5
