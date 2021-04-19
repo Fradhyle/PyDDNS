@@ -39,7 +39,8 @@ Following references are in alphabetical order, case insensitive.
 #### Questions
 1. **Is it okay to save API token/key in plain text?**
     - I also considered about this for a long time.\
-      In conclusion, I decided to save it as plain text because it's already safe method.
+      In conclusion, I decided to save it as plain text because it's already safe method.\
+      But, I will remove API Key method later because of Cloudflare's recommendation
 ---
 #### To-Do
 - [ ] Stay in background and run regularly.
@@ -49,7 +50,7 @@ Following references are in alphabetical order, case insensitive.
 ### 한국어
 ---
 #### 소개
-- 개발 목적: CloudFlare를 통해 관리중인 도메인에 대한 DDNS 클라이언트 필요
+- 개발 목적: Cloudflare를 통해 관리중인 도메인에 대한 DDNS 클라이언트 필요
 - 개발 언어: Python
 ---
 #### 협업 준비물
@@ -72,7 +73,8 @@ Following references are in alphabetical order, case insensitive.
 #### 질문
 1. **API 토큰/키를 평문으로 저장해도 괜찮은가요?**
     - 저 또한 이 문제로 오랫동안 고민을 했습니다.\
-      결론적으로, 이미 이 방식은 안전한 방식이기 때문에 평문으로 저장하기로 결정했습니다.
+      결론적으로, 이미 이 방식은 안전한 방식이기 때문에 평문으로 저장하기로 결정했습니다.\
+      하지만 Cloudflare의 권고 사항에 따라 나중에 API 키 방식은 없앨 예정입니다.
 ---
 #### 할 일
 - [ ] 백그라운드에서 정기적으로 동작하게 만들기.
