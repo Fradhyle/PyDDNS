@@ -1,12 +1,13 @@
 # JSON 모듈이 빈 파일을 불러올 때 발생하는 오류 처리 import
 from json.decoder import JSONDecodeError
 import json
+import sqlite3
 import pathlib
 
 
 class JSONMan:
     def __init__(self, file):
-        self.file = pathlib.PurePath(file)
+        self.file = pathlib.Path(file)
     
     def load(self):
         # JSON 파일 불러오기
@@ -32,3 +33,15 @@ class JSONMan:
         # 데이터 파일을 새로 쓰기 모드로 불러온 후 JSON 저장
         with open(self.file, 'w', encoding='utf-8') as fp:
             json.dump(data, fp, ensure_ascii=False, indent=4, separators=(',', ':'))
+
+class SQLMan:
+    def __init__(self, file):
+        self.file = pathlib.Path(file)
+
+    def connect(self):
+        try:
+            conn = sqlite3.connect(self.file)
+        except sqlite3.Error as e:
+            print(e)
+        else:
+            return conn

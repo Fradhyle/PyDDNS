@@ -2,33 +2,34 @@ import requests
 import tkinter as tk
 import tkinter.ttk as ttk
 
+
+def get_external_ip():
+    response = requests.get('https://api64.ipify.org?format=json')
+    return response.json()['ip']
+
 root = tk.Tk()
-root.title('PyDDNS')
-root.geometry("640x400+100+100")
-root.resizable(False, False)
 
-def get_content():
-    res = requests.get(req_point + '/' + id_ + '/dns_records', headers=headers)
-    result = res.json()['result']
-    return result
-
-treeview=ttk.Treeview(root, columns=['name', 'type', 'content'], displaycolumns=['name', 'type', 'content'])
+treeview = ttk.Treeview(root, columns=['type', 'name', 'content'])
 treeview.pack()
 
-treeview.column('#0', width=30)
+treeview.column('#0', width=50)
 treeview.heading('#0', text='순번')
 
-treeview.column('name', width=100)
-treeview.heading('name', text='주소')
+treeview.column('type', width=50)
+treeview.heading('type', text='형식')
 
-treeview.column('type', width=30)
-treeview.heading('type', text='타입', anchor='center')
+treeview.column('name', width=50)
+treeview.heading('name', text='이름')
 
-treeview.column('content', width=100)
-treeview.heading('content', text='IP 주소', anchor='center')
+treeview.column('content', width=50)
+treeview.heading('content', text='콘텐츠')
 
-for i in range(len(result)):
-    data = result[i]
-    treeview.insert('', 'end', text=i+1, values=[data['name'], data['type'], data['content']], iid=i+1)
+treeview.insert('', 'end', text='1', values=['test1', 'test2', 'test3'], open=True)
+
+root.title('PyDDNS')
+root_pos_right = int(root.winfo_screenwidth() / 2 - root.winfo_reqwidth() / 2)
+root_pos_down = int(root.winfo_screenheight() / 2 - root.winfo_reqheight() / 2)
+root.geometry(f'+{root_pos_right}+{root_pos_down}')
+root.resizable(False, False)
 
 root.mainloop()
