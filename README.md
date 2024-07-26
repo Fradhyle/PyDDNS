@@ -36,8 +36,8 @@
 <!-- [en-US] -->
 ## English
 ### Introduction
-- 개발 목적: I need DDNS Client for my domain in [Cloudflare](https://www.cloudflare.com/)
-- 개발 언어: [Python](https://python.org)
+- Development Purpose: I need DDNS Client for my domain in [Cloudflare](https://www.cloudflare.com/)
+- Development Language: [Python](https://python.org)
 ### Development References
 Following references are in alphabetical order, case insensitive.
 - [Cloudflare API v4 Documentation](https://api.cloudflare.com)
